@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Etch-A-Sketch</h1>
+        <h2>Draw what you gotta draw!</h3>
+        <div class="control">
+            <h3>Controls</h3>
+            <input class="slider" type="range" min="2" max="32" value="8">
+            <p id="grid-size">Grid size: 12 x 12</p>
+            <button class="button" id="apply-button">Apply</button>
+            <button class="button" id="clear-button">Clear</button>
+        </div>
+    </div>
+    <div class="board"></div>
+</body>
+</html>
